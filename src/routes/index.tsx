@@ -4,7 +4,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "A receita natural que mudou a minha vida - Saúde Masculina" },
+      { title: "A receita natural que mudou a minha vida. Saúde Masculina" },
       {
         name: "description",
         content:
@@ -72,7 +72,7 @@ function Index() {
 
           {/* Title */}
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-slate-900 sm:text-5xl">
-            A receita natural que mudou a minha vida - <span className="text-emerald-600">e pode mudar a tua.</span>
+            A receita natural que mudou a minha vida <span className="text-emerald-600">e pode mudar a tua.</span>
           </h1>
 
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
@@ -97,13 +97,13 @@ function Index() {
             </p>
 
             <blockquote className="border-l-4 border-emerald-600 bg-emerald-50/40 px-5 py-3 italic text-slate-700">
-              - O senhor é casado?
+              O senhor é casado?
             </blockquote>
 
             <p>Ele disse que sim. Então eu lhe disse:</p>
 
             <blockquote className="border-l-4 border-emerald-600 bg-emerald-50/40 px-5 py-3 italic text-slate-700">
-              - Deve ser complicado ter mulher em casa. Nós homens ejaculamos muito rápido e
+              Deve ser complicado ter mulher em casa. Nós homens ejaculamos muito rápido e
               dependemos sempre do pénis levantar a segunda vez, porque aí sim demoramos mais um
               pouquinho, mas já passamos vergonha.
             </blockquote>
@@ -111,7 +111,7 @@ function Index() {
             <p>Ele disse:</p>
 
             <blockquote className="border-l-4 border-emerald-600 bg-emerald-50/40 px-5 py-3 italic text-slate-700">
-              - Não passo por isso. Vamos ao setor das frutas, vou te dar uma receita para acabar
+              Não passo por isso. Vamos ao setor das frutas, vou te dar uma receita para acabar
               com isso.
             </blockquote>
 
@@ -139,7 +139,7 @@ function Index() {
           <section className="mt-10 space-y-5 text-[17px] leading-relaxed text-slate-700">
             <p>
               Eu tinha vergonha de transar com mulheres para não passar vergonha. Depois disso
-              perdi a vergonha - só quis mostrar as minhas habilidades, porque habilidades na
+              perdi a vergonha, só quis mostrar as minhas habilidades, porque habilidades na
               cama todos temos. O que falta é o tempo de qualidade com o pénis ereto para
               fazermos as coisas, e essa receita ajudou.
             </p>
@@ -217,7 +217,7 @@ function Index() {
 
       <footer className="mt-16 border-t border-slate-100">
         <div className="mx-auto max-w-3xl px-6 py-8 text-center text-sm text-slate-500">
-          © {new Date().getFullYear()} Saúde Masculina. Conteúdo informativo - consulte sempre
+          © {new Date().getFullYear()} Saúde Masculina. Conteúdo informativo. Consulte sempre
           um profissional de saúde.
         </div>
       </footer>
